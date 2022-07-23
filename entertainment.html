@@ -6,8 +6,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=0.5, maximum-scale=0.5, minimal-ui">
     <title>Black Pearl Martini Bar</title>
-    <link href="normalize.css" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script type="text/javascript">
+        function myButton() {location.href = "contact.html"; }
+    </script>
   </head>
  
 
@@ -27,11 +30,11 @@
     </nav>
 
 
-    <section>
+    <section class="hero hero">
         <h3>Entertainment</h3>
         
         <p>Check out our weekly entertainment line-up</p>
-            <ul>
+            <ul class="ent">
                 <li class="e1">-Monday</li>
                 <li class="e2">-Tuesday</li>
                 <li class="e3">-Wednesday</li>
@@ -45,35 +48,41 @@
             <p>Birthday, whatever you want to celebrate do it in style</p>
             <p>with us.
             <p></p>
-                <input type="button"  value="Click Here" />
+                <width="100">
+                    <a href="contact.html" class="contact" title="contactUs">Click here</a>
+                </width>
              <p></p>
     </section>
 
 
-    <section>
+    <section class="featured-pages">
         <a href="menu.html" class="card card-menu" title="Go to the Menu page">
-            <img src="images/cover.jpg" height="300" width="300" alt="Four Martinis" />
+            <img src="images/menu.jpg" height="300" width="300" alt="Four Martinis" />
             <p>Menu</p>
         </a>
         <a href="entertainment.html" class="card card-entertainment" title="Check out the entertainment">
-            <img src="images/cover.jpg" height="300" width="300" alt="Four Martinis" />
+            <img src="images/entertainment.jpg" height="300" width="300" alt="Four Martinis" />
             <p>Entertainment</p>
         </a>
         <a href="contact.html" class="card card-contact" title="Contact us">
-            <img src="images/cover.jpg" height="300" width="300" alt="Four Martinis" />
+            <img src="images/contact.jpg" height="300" width="300" alt="Four Martinis" />
             <p>Contact</p>
         </a>
         <a href="faqs.html" class="card card-faqs" title="Frequently asked questions">
-            <img src="images/cover.jpg" height="300" width="300" alt="Four Martinis" />
+            <img src="images/faqs.jpg" height="300" width="300" alt="Four Martinis" />
             <p>FAQS</p>
         </a>
     </section>
 
 
     <footer>
-        <img src="images/BP MB.png" alt="Black Pearl Martini Bar">
+        <a href="index.html" title="go home">
+            <img src="images/BP MB.png" height="200" width="200" alt="Black Pearl Martini Bar" class="center">
+        </a>
         <p></p>
-        @copy; 2022
+            <div>
+                 @copy; 2022
+            </div>
     </footer>
 
 

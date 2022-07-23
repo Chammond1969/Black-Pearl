@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Autour+One&family=Charm&display=swap');
+
+:root {
+    --black-pearl-primary: #C6E8B6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Autour One' , sans-serif
+}
+
+
+nav {
+    position: absolute;
+    width: 100%;
+}
+
+nav ul{
+    list-style: none;
+    margin: 1rem;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li:first-child{
+    margin-left: 0;
+    margin-right: auto;
+}
+
+nav a {
+    color:#7CF643;
+    text-decoration: none;
+    padding: 0.5rem;
+    font-family: charm;
+    font-size: 2rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+section.hero {
+    width: 100vw;
+    height: 80vw;
+    background-image: linear-gradient(rgba(198, 232, 182, 0.5), rgba(198, 232, 182, 0.5)), url("../images/cover.jpg");
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+section.hero h1 {
+    font-size: 9rem;
+    font-weight:400;
+    color: #7CF643;
+    margin-top: 15rem;
+    margin-bottom: 3rem;
+}
+
+section.hero h2 {
+    font-size: 4.5rem;
+    font-weight: 300;
+    margin: 0;
+}
+
+section.hero h3 {
+    font-size: 5rem;
+    font-weight:400;
+    color: #7CF643;
+    margin-top: 15rem;
+    margin-bottom: 8rem;
+}
+
+section.hero h4 {
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+section.hero p {
+    font-size: 3rem;
+    line-height: 3rem;
+    font-weight: 100;
+    margin: 0;
+    font-family: charm;
+}
+
+section.hero a{
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: charm;
+    text-decoration: none;
+    color: #0500FF;
+}
+
+section.hero-menu {
+    width: 100vw;
+    height: 80vw;
+    background-image: linear-gradient(rgba(198, 232, 182, 0.5), rgba(198, 232, 182, 0.5)), url("../images/cover.jpg");
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+table {
+    font-size: 1.5rem;
+    font-family: charm;
+}
+
+section.featured-pages a{
+    background-color: #C6E8B6;
+    display: inline-block;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: charm;
+    padding: 86px 86px 20px 86px;
+    text-decoration: none;
+}
+
+ul.ent {
+    list-style: none;
+    font-family: charm;
+    font-size: 2rem;
+}
+
+.contact:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+section.quote {
+    width: inherit;
+    background-color: #0500FF;
+    padding: 2rem;
+}
+
+section.quote h4{
+    font-size: 4rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+section.quote p{
+    font-size: 2rem;
+    line-height: 2rem;
+    text-align: center;
+}
+
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;   
+}
+
+footer {
+    width: inherit;
+    background-color: #060606;
+    padding: 2rem;
+}
+
+.center {
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
+
+footer div{
+    font-size: 1rem;
+    line-height: 1rem;
+    text-align: center;
+    color: white;
+}
+
+form {
+    text-align: center;
+    font-family: charm;
+    font-size: 2rem;
+    }
+
+@media (max-width: 900px) {
+    section.hero h1 {
+        font-size: 4rem;
+        font-weight:300;
+        color: #7CF643;
+        margin-top: 15rem;
+        margin-bottom: 3rem;
+    }
+}
+
+@media (max-width: 900px) {
+    section.hero {
+        width: 100vw;
+        height: 100vw;
+    }
+}
+
+@media (max-width: 900px) {
+    section.hero h2 {
+        font-size: 2.5rem;
+        font-weight: 300;
+        margin: 0;
+    }
+}
+
+@media (max-width: 900px) {
+    section.hero h3 {
+        font-size: 3rem;
+        font-weight:300;
+        color: #7CF643;
+        margin-top: 15rem;
+        margin-bottom: 8rem;
+    }
+}
+
+@media (max-width: 900px) {
+    section.hero h4 {
+        font-size: 2rem;
+        font-weight: 200;
+    }
+}
+
+@media (max-width: 900px) {
+    section.hero p {
+        font-size: 2rem;
+        line-height: 2rem;
+        font-weight: 100;
+        margin: 0;
+        font-family: charm;
+    }
+}
+
+@media (max-width: 900px) {
+    section.hero a{
+        font-size: 2rem;
+        font-weight: bold;
+        font-family: charm;
+        padding: 1.5rem 3 rem;
+        text-decoration: none;
+        color: #0500FF;
+        border-radius: 0.5rem;
+        margin-top: 1rem;
+    }
+}
+
+@media (max-width: 900px) {
+    section.hero-menu {
+        width: 100vw;
+        height: 150vw;
+        background-image: linear-gradient(rgba(198, 232, 182, 0.5), rgba(198, 232, 182, 0.5)), url("../images/cover2.jpg");
+    }
+}
+
+@media (max-width: 900px) {
+    section.hero-contact {
+        width: 100vw;
+        height: 150vw;
+        background-image: linear-gradient(rgba(198, 232, 182, 0.5), rgba(198, 232, 182, 0.5)), url("../images/cover2.jpg");
+    }
+}
+
+@media (max-width: 900px) {
+    table {
+        font-size: 1rem;
+        font-family: charm;
+    }
+}
+
+@media (max-width: 900px) {
+    section.featured-pages a{
+        background-color: #C6E8B6;
+        display: inline-block;
+        text-align: center;
+        font-size: 2rem;
+        font-weight: bold;
+        font-family: charm;
+        padding: 55px 55px 2px 55px;
+        text-decoration: none;
+    }
+}
+
+@media (max-width: 900px) {
+    form {
+        text-align: center;
+        font-family: charm;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 900px) {
+    ul.ent {
+        list-style: none;
+        font-family: charm;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 900px) {
+    section.quote {
+        width: inherit;
+        background-color: #0500FF;
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 900px) {
+    section.quote h4{
+        font-size: 2rem;
+        font-weight: 200;
+        text-align: center;
+    }
+}
+
+@media (max-width: 900px) {
+    section.quote p{
+        font-size: 1rem;
+        line-height: 1rem;
+        text-align: center;
+    }
+}
